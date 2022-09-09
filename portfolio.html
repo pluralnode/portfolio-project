@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        
+    <title>Frontend Mentor | Minimalist Portfolio</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <!-- MAIN HEADER -->
+    <header>
+        <div class="container header--container flex-row-item space-b">
+            <img src="assets/images/logo.svg" alt="Logo Image" class="main--logo">
+            <nav class="nav">
+                <div class="nav__menu">
+                    <p class="body__three menu-item">Home</p>
+                    <p class="body__three menu-item">Portfolio</p>
+                    <p class="body__three menu-item">Contact Me</p>
+                </div>
+                <div class="nav__block">
+                    <div class="nav__bar "></div>
+                    <div class="nav__bar "></div>
+                    <div class="nav__bar "></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+     <!-- PORTFOLIO PROJECTS -->
+    <section class="projects">
+        <div class="container projects--container">
+            <div class="project project--one">
+                <img src="assets/images/portfolio/mobile/image-portfolio-manage@2x.jpg" alt="" class="project__img mobile">
+                <img src="assets/images/portfolio/tablet/image-portfolio-manage@2x.jpg" alt="" class="project__img tablet">
+                <img src="assets/images/portfolio/desktop/image-portfolio-manage@2x.jpg" alt="" class="project__img desktop">
+                <div class="project__details">
+                    <p class="heading heading__one project__heading">Manage</p>
+                    <p class="body__one">
+                        This project required me to build a fully responsive landing page to the designs provided. 
+                        I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
+                    </p>
+                    <div class="btn bg__white">
+                        <p class="btn__text project--btn">View Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project project--two">
+                <img src="assets/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg" alt="" class="project__img mobile">
+                <img src="assets/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg" alt="" class="project__img tablet">
+                <img src="assets/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg" alt="" class="project__img desktop">
+                <div class="project__details">
+                    <p class="heading heading__one project__heading">Bookmark</p>
+                    <p class="body__one">
+                        This project required me to build a fully responsive landing page to the designs provided. 
+                        I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.
+                    </p>
+                    <div class="btn bg__white">
+                        <p class="btn__text project--btn">View Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project project--three">
+                <img src="assets/images/portfolio/mobile/image-portfolio-insure@2x.jpg" alt="" class="project__img mobile">
+                <img src="assets/images/portfolio/tablet/image-portfolio-insure@2x.jpg" alt="" class="project__img tablet">
+                <img src="assets/images/portfolio/desktop/image-portfolio-insure@2x.jpg" alt="" class="project__img desktop">
+                <div class="project__details">
+                    <p class="heading heading__one project__heading">Insure</p>
+                    <p class="body__one">
+                        This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. 
+                        The only JavaScript this project required was to enable the toggling of the mobile navigation.
+                    </p>
+                    <div class="btn bg__white">
+                        <p class="btn__text project--btn">View Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project project--four">
+                <img src="assets/images/portfolio/mobile/image-portfolio-fylo@2x.jpg" alt="" class="project__img mobile">
+                <img src="assets/images/portfolio/tablet/image-portfolio-fylo@2x.jpg" alt="" class="project__img tablet">
+                <img src="assets/images/portfolio/desktop/image-portfolio-fylo@2x.jpg" alt="" class="project__img desktop">
+                <div class="project__details">
+                    <p class="heading heading__one project__heading">Fylo</p>
+                    <p class="body__one">
+                        This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. 
+                        I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.
+                    </p>
+                    <div class="btn bg__white">
+                        <p class="btn__text project--btn">View Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- CONTACT SECTION -->
+     <section class="contact">
+        <div class="container contact--container">
+            <p class="heading heading__one align__center">Interested in doing a project together?</p>
+            <div class="black__bar"></div>
+            <div class="btn contact-btn">Contact Me </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer bg__dark">
+        <div class="container footer--container">
+            <img src="assets/images/icons/logo-light.svg" alt="Logo Image" class="main--logo footer--logo">
+            <div class="footer-links align__center">
+                <p class="body__two footer-link">Home</p>
+                <p class="body__two footer-link">Portfolio</p>
+                <p class="body__two footer-link">Contact Me</p>
+            </div>
+            <div class="footer-icon-bar flex--icons">
+                <img src="assets/images/icons/twitter-light.svg" alt="" class="footer-icon tw">
+                <img src="assets/images/icons/github-light.svg" alt="" class="footer-icon git">
+                <img src="assets/images/icons/linkedin-light.svg" alt="" class="footer-icon in">
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

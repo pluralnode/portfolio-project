@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Minimalist Portfolio</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap" rel="stylesheet">
+    </head>
+<body>
+    
+    <!-- MAIN HEADER -->
+    <header>
+        <div class="container header--container flex-row-item space-b">
+            <img src="assets/images/logo.svg" alt="Logo Image" class="main--logo">
+            <nav class="nav">
+                <div class="nav__menu">
+                    <p class="body__three menu-item">Home</p>
+                    <p class="body__three menu-item">Portfolio</p>
+                    <p class="body__three menu-item">Contact Me</p>
+                </div>
+                <div class="nav__block">
+                    <div class="nav__bar "></div>
+                    <div class="nav__bar "></div>
+                    <div class="nav__bar "></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- GET IN TOUCH -->
+    <section class="contact">
+        <div class="container contact--card">
+            <p class="heading heading__one contact--heading">Get in touch</p>
+            <p class="body__one contact__body">
+                I’d love to hear about what you’re working on and how I could help. 
+                I’m currently looking for a new role and am open to a wide range of opportunities. 
+                My preference would be to find a position in a company in London. 
+                But I’m also happy to hear about opportunites that don’t fit that description. 
+                I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. 
+                Please do feel free to check out my online profiles below and get in touch using the form.
+            </p>
+            <div class="contact-icon-bar flex--icons">
+                <img src="assets/images/icons/twitter.svg" alt="" class="contact-icon tw">
+                <img src="assets/images/icons/github.svg" alt="" class="contact-icon git">
+                <img src="assets/images/icons/linkedin.svg" alt="" class="contact-icon in">
+            </div>
+        </div>
+        <div class="container contact--form">
+            <p class="heading heading__one form--heading">Contact me</p>
+            <form action="">
+                <label for="name" class="body__one form">Name</label>
+                <input type="text" name="name" id="name" placeholder="Jane Appleseed" class="body__one">
+
+                <label for="email" class="body__one form">Email</label>
+                <input type="email" name="email" id="email" placeholder="email@example.com" class="body__one">
+
+                <label for="message" class="body__one form">Message</label>
+                <textarea name="message" id="message" placeholder="Message" class="body__one"></textarea>
+            </form>
+            <div class="btn bg__dark contact--btn">
+                <p class="btn__text contact--text">Send message</p>
+            </div>
+        </div>
+    </section>
+
+            <!-- FOOTER -->
+    <footer class="footer bg__dark">
+        <div class="container footer--container">
+            <img src="assets/images/icons/logo-light.svg" alt="Logo Image" class="main--logo footer--logo">
+            <div class="footer-links align__center">
+                <p class="body__two footer-link">Home</p>
+                <p class="body__two footer-link">Portfolio</p>
+                <p class="body__two footer-link">Contact Me</p>
+            </div>
+            <div class="footer-icon-bar flex--icons">
+                <img src="assets/images/icons/twitter-light.svg" alt="" class="footer-icon tw">
+                <img src="assets/images/icons/github-light.svg" alt="" class="footer-icon git">
+                <img src="assets/images/icons/linkedin-light.svg" alt="" class="footer-icon in">
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

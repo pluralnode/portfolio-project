@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+            
+    <title>Frontend Mentor | Minimalist Portfolio</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+         <!-- MAIN HEADER -->
+    <header>
+        <div class="container header--container flex-row-item space-b">
+            <img src="assets/images/logo.svg" alt="Logo Image" class="main--logo">
+            <nav class="nav">
+                <div class="nav__menu">
+                    <p class="body__three menu-item">Home</p>
+                    <p class="body__three menu-item">Portfolio</p>
+                    <p class="body__three menu-item">Contact Me</p>
+                </div>
+                <div class="nav__block">
+                    <div class="nav__bar "></div>
+                    <div class="nav__bar "></div>
+                    <div class="nav__bar "></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="project">
+        <div class="container project--container">
+            <img src="assets/images/detail/mobile/image-manage-hero@2x.jpg" alt="" class="project__img mobile">
+            <img src="assets/images/detail/tablet/image-manage-hero@2x.jpg" alt="" class="project__img tablet hero">
+            <img src="assets/images/detail/desktop/image-manage-hero@2x.jpg" alt="" class="project__img desktop hero--desk">
+            <div class="project--info main">
+                <p class="heading heading__one project__heading">Manage</p>
+                <p class="body__one">
+                    This project required me to build a fully responsive landing page to the designs provided. 
+                    I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
+                </p>
+                <p class="project--tag capitalize place">Interesting design / Front end development</p>
+                <p class="project--tag base">HTML / CSS / JS</p>
+                <div class="btn bg__white project">
+                    <p class="btn__text project--btn">Visit Website</p>
+                </div>
+            </div>
+            <div class="project--info border--off">
+                <p class="heading heading__one project--background">Project background</p>
+                <p class="body__one">
+                    This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. 
+                    Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. 
+                    Creating these projects has helped me refine my workflow and solve real-world coding problems. 
+                    I’ve learned something new with each project, helping me to improve and adapt my style.
+                </p>
+            </div>
+            <div class="project--info border--off static--div">
+                <p class="heading heading__one static--previews">Static previews</p>
+                <img src="assets/images/detail/mobile/image-manage-preview-1@2x.jpg" alt="" class="project__img mobile">
+                <img src="assets/images/detail/mobile/image-manage-preview-2@2x.jpg" alt="" class="project__img mobile">
+                <img src="assets/images/detail/tablet/image-manage-preview-1@2x.jpg" alt="" class="project__img tablet static">
+                <img src="assets/images/detail/tablet/image-manage-preview-2@2x.jpg" alt="" class="project__img tablet static">
+                <img src="assets/images/detail/desktop/image-manage-preview-1@2x.jpg" alt="" class="project__img desktop static">
+                <img src="assets/images/detail/desktop/image-manage-preview-2@2x.jpg" alt="" class="project__img desktop static">
+            </div>
+            <div class="project--shuffler">
+                <div class="shuffle--left">
+                    <img src="assets/images/icons/arrow-left.svg" alt="" class="arrow--icon">
+                    <p class="previous--project">Fylo</p>
+                    <p class="previous">Previous project</p>
+                </div>
+                <div class="shuffle--right">
+                    <img src="assets/images/icons/arrow-right.svg" alt="" class="arrow--icon right">
+                    <p class="next--project">Bookmark</p>
+                    <p class="next">Next project</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <div class="container contact--container">
+            <p class="heading heading__one align__center">Interested in doing a project together?</p>
+            <div class="black__bar"></div>
+            <div class="btn contact-btn">Contact Me </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer bg__dark">
+        <div class="container footer--container">
+            <img src="assets/images/icons/logo-light.svg" alt="Logo Image" class="main--logo footer--logo">
+            <div class="footer-links align__center">
+                <p class="body__two footer-link">Home</p>
+                <p class="body__two footer-link">Portfolio</p>
+                <p class="body__two footer-link">Contact Me</p>
+            </div>
+            <div class="footer-icon-bar flex--icons">
+                <img src="assets/images/icons/twitter-light.svg" alt="" class="footer-icon tw">
+                <img src="assets/images/icons/github-light.svg" alt="" class="footer-icon git">
+                <img src="assets/images/icons/linkedin-light.svg" alt="" class="footer-icon in">
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
