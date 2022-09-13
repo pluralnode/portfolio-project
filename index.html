@@ -16,18 +16,18 @@
 
     <!-- MAIN HEADER -->
     <header>
-        <div class="container header--container flex-row-item space-b">
+        <div class="container header--container">
             <img src="assets/images/logo.svg" alt="Logo Image" class="main--logo">
             <nav class="nav">
                 <div class="nav__menu">
                     <p class="body__three menu-item">
-                        <a href="#home" target="_blank">Home</a> 
+                        <a href="#home" target="_blank" class="header--link">Home</a> 
                     </p>
                     <p class="body__three menu-item">
-                        <a href="portfolio.html">Portfolio</a>
+                        <a href="portfolio.html"  class="header--link">Portfolio</a>
                     </p>
                     <p class="body__three menu-item">
-                        <a href="contact.html">Contact Me</a>
+                        <a href="contact.html"  class="header--link">Contact Me</a>
                     </p>
                 </div>
                 <div class="nav__block">
@@ -44,10 +44,12 @@
         <div class="container hero--container">
             <img src="assets/images/homepage/mobile/image-homepage-hero@2x.jpg" alt="Homepage Hero Image" class="hero__img mobile">
             <div class="hero__msg">
-                <p class="heading heading__one">Hey, I’m Alex Spencer and I love building beautiful websites</p>
-                <div class="btn bg__dark">
-                    <img src="assets/images/icons/down-arrows.svg" alt="Arrow Down Icon" class="down-arrow-icon">
-                    <p class="btn__text">About Me</p>
+                <p class="heading heading__two">Hey, I’m Alex Spencer and I love building beautiful websites</p>
+                <div class="btn hero--btn">
+                    <a href="#about-me" class="hero--link bg--dim">
+                        <img src="assets/images/icons/down-arrows.svg" alt="Arrow Down Icon" class="down-arrow-icon">
+                        <p class="body__three btn__text">About Me</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -60,7 +62,7 @@
             <img src="assets/images/homepage/tablet/image-homepage-profile@2x.jpg" alt="" class="about-me-img tablet">
             <img src="assets/images/homepage/desktop/image-homepage-profile@2x.jpg" alt="" class="about-me-img desktop">
             <div class="about-me-details">
-                <p class="heading heading__one about--heading">About Me</p>
+                <p class="heading heading__two" id="about-me">About Me</p>
                 <p class="body__one">
                     I’m a junior front-end developer looking for a new role in an exciting company. 
                     I focus on writing accessible HTML, using modern CSS practices and writing clean 
@@ -70,7 +72,9 @@
                     I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
                     you to check out my work.
                 </p>
-                <div class="btn bg__light about-me-btn">Go to Portfolio</div>
+                <div class="btn about-me-btn">
+                    <a href="portfolio.html" class="body__three btn__text center--align">Go to Portfolio</a>
+                </div>
             </div>
         </div>
     </section>
@@ -78,22 +82,30 @@
     <!-- CONTACT SECTION -->
     <section class="contact">
         <div class="container contact--container">
-            <p class="heading heading__one align__center">Interested in doing a project together?</p>
+            <p class="heading heading__one center--align">Interested in doing a project together?</p>
             <div class="black__bar"></div>
-            <div class="btn contact-btn">Contact Me </div>
+            <div class="btn contact-btn">
+                <a href="contact.html" class="body__three btn__text center--align">Contact Me</a>
+            </div>
         </div>
     </section>
     
     <!-- FOOTER -->
-    <footer class="footer bg__dark">
+    <footer class="footer bg--dark">
         <div class="container footer--container">
             <img src="assets/images/icons/logo-light.svg" alt="Logo Image" class="main--logo footer--logo">
-            <div class="footer-links align__center">
-                <p class="body__two footer-link">Home</p>
-                <p class="body__two footer-link">Portfolio</p>
-                <p class="body__two footer-link">Contact Me</p>
+            <div class="footer-links center--align">
+                <p class="body__two footer-link">
+                    <a href="index.html">Home</a>
+                </p>
+                <p class="body__two footer-link">
+                    <a href="portfolio.html">Portfolio</a>
+                </p>
+                <p class="body__two footer-link">
+                    <a href="contact.html">Contact Me</a>
+                </p>
             </div>
-            <div class="footer-icon-bar flex--icons">
+            <div class="footer-icon-bar">
                 <img src="assets/images/icons/twitter-light.svg" alt="" class="footer-icon tw">
                 <img src="assets/images/icons/github-light.svg" alt="" class="footer-icon git">
                 <img src="assets/images/icons/linkedin-light.svg" alt="" class="footer-icon in">
